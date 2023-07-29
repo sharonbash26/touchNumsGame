@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TouchNums</title>
+    <link rel="stylesheet" href="main.css" </head>
+</head>
+
+<body onload="onInit()">
+    <h1>Touch Nums-lets play!</h1>
+    <h3>Choose Your Level</h3>
+    <h3 class="countup">Timer: <span>00:00:00</span></h3>
+    <h3 class="record">Your Record:<span>00:00:00</span></h3>
+    <button onclick="startGame(this)">Click to start!</button>
+    <div class="levels"></div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+
+
+    <script src="main.js"></script>
+    <script src="utils.js"></script>
+</body>
+
+</html>
